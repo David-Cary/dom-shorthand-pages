@@ -1,0 +1,13 @@
+# DOM Shorthand Pages
+
+
+This combines the [DOM Shorthand](https://www.npmjs.com/package/dom-shorthand) and [Keyed Value Templates](https://www.npmjs.com/package/keyed-value-templates) libraries..
+
+# Quickstart
+## Installation
+You can install this library though npm like so:
+```
+$ npm install --save dom-shorthand-pages
+```
+
+## Usage

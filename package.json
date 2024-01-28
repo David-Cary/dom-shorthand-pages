@@ -1,0 +1,49 @@
+{
+  "name": "dom-shorthand-pages",
+  "version": "1.0.0",
+  "description": "Adds ",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .ts src",
+    "lint-fix": "eslint --fix --ext .ts src",
+    "test": "jest tests",
+    "test-renderer": "jest tests/renderer.test.ts",
+    "test-search": "jest tests/search.test.ts",
+    "test-validation": "jest tests/validation.test.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "DOM",
+    "JSON",
+    "template",
+    "templating"
+  ],
+  "author": "David Cary",
+  "license": "SimPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/David-Cary/dom-shorthand-pages"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/jsdom": "^21.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-standard-with-typescript": "^36.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1",
+    "jsdom": "^22.1.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "page-tree-navigation": "^1.1.1",
+    "dom-shorthand-templates": "^1.2.0"
+  }
+}
