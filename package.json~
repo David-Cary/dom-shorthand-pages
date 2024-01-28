@@ -1,7 +1,7 @@
 {
   "name": "dom-shorthand-pages",
   "version": "1.0.0",
-  "description": "Adds support for page trees with DOM node shorthand content.",
+  "description": "Adds su",
   "main": "lib/index.js",
   "files": [
     "lib/**/*"
